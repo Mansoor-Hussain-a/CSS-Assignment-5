@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Gillroy";
+  src: url("/fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gillroy", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.wrapper {
+  border-radius: 31px;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 90%;
+  /* min-height: 1024px */
+  display: flex;
+  background-color: #002062;
+}
+.imageSide {
+  width: 55%;
+  background-image: url(./Images/sideImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formSide {
+  padding: 20px 0;
+  gap: 20px;
+  width: 45%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.logoImg {
+  width: 419px;
+  height: 114px;
+}
+.formHeading {
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+}
+.inputFields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  background-color: #0f2d6b;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 350px;
+}
+.inputDiv:focus-within,
+.inputDiv:hover {
+  outline: 2px solid #4671c6a6;
+}
+.inputDiv input {
+  background-color: #0f2d6b;
+  border: none;
+  outline: none;
+  cursor: default;
+  flex-grow: 1;
+  color: white;
+}
+.subtitle {
+  color: white;
+  align-self: flex-end;
+  font-size: 16px;
+}
+.bottomGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signIn {
+  background-color: #1a4fba;
+  border: none;
+  border-radius: 10px;
+  width: 350px;
+  height: 45px;
+  padding: 5px 10px;
+  color: white;
+}
+.orDiv {
+  display: flex;
+  width: 350px;
+  gap: 5px;
+  align-items: center;
+}
+.line {
+  flex-grow: 1;
+  height: 0;
+  border-top: 1px solid #9b9b9b;
+}
+.orDiv p {
+  color: white;
+}
+.signInList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.signInItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  background-color: #0f2d6b;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 350px;
+}
+.signInItems p {
+  color: white;
+  width: 200px;
+}
+.createAccount {
+  display: flex;
+  width: 350px;
+  justify-content: center;
+  gap: 2px;
+}
+.createAccount p {
+  color: #9b9b9b;
+}
+.createAccount a {
+  text-decoration: none;
+  color: #4671c6;
+}
