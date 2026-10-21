@@ -9,18 +9,11 @@
   padding: 0;
   font-family: "Gillroy", sans-serif;
 }
-body {
-  display: flex;
-  align-items: center;
-  min-height: 100vh;
-  padding: 20px;
-}
+
 .wrapper {
-  border-radius: 31px;
-  max-width: 1440px;
-  margin: 0 auto;
-  width: 90%;
-  /* min-height: 1024px */
+  width: 100%;
+
+  min-height: 100vh;
   display: flex;
   background-color: #002062;
 }
@@ -35,6 +28,7 @@ body {
   gap: 20px;
   width: 45%;
   align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
 }
